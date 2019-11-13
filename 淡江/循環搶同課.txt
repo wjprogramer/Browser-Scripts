@@ -1,0 +1,7 @@
+// ==UserScript==
+// @name     大四上 加退選第二階段 選課用
+// @version  1
+// @grant    none
+// ==/UserScript==
+//document.getElementById("txtCosEleSeq").value = "2049";
+//document.getElementById("btnAdd").click();
