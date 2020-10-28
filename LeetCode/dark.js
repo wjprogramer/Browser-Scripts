@@ -34,11 +34,11 @@ setTimeout(timeout, 1000);
 document.getElementsByTagName('head')[0].appendChild(style);
 
 var css = `
-.side-tools-wrapper__1TS9 {
+.side-tools-wrapper__1TS9, body {
   background-color: #18191A;
 }
 
-div[data-cy=description-content] * {
+div[data-cy=description-content] *, div[data-cy=submissions-content] * {
   color: #cfba78;
 }
 
@@ -61,5 +61,9 @@ div[data-cy=description-content] code {
 
 div[data-cy=description-content] code * {
   color: #263238 !important;
+}
+
+table {
+	background-color: lightblue;
 }
 `;
