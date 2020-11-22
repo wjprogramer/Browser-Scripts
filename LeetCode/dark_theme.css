@@ -1,0 +1,32 @@
+.side-tools-wrapper__1TS9, body {
+  background-color: #18191A;
+}
+
+div[data-cy=description-content] *, div[data-cy=submissions-content] * {
+  color: #cfba78;
+}
+
+div[data-cy=question-title] {
+  color: white;
+}
+
+div[data-cy=description-content] pre {
+  color: #263238 !important;
+  background-color: #f7f9fa;
+}
+
+div[data-cy=description-content] pre * {
+  color: #263238 !important;
+}
+
+div[data-cy=description-content] code {
+  color: #263238 !important;
+}
+
+div[data-cy=description-content] code * {
+  color: #263238 !important;
+}
+
+table {
+	background-color: lightblue;
+}
