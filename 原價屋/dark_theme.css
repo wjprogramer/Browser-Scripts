@@ -1,0 +1,24 @@
+#hid {
+  margin-bottom: 8px;
+}
+
+#Tfix td {
+  padding: 4px;
+}
+
+#Tfix th {
+  padding: 4px;
+}
+
+#Tfix tbody:nth-child(3) {
+
+}
+
+#Ttitle {
+  margin-bottom: 8px;
+}
+
+#Ttitle tbody tr:nth-child(2) div nobr {
+  display: none;
+}
+
