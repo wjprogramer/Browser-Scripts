@@ -92,6 +92,7 @@ const createButtons = () => {
 
 	const titleDiv = document.createElement('div');
 	titleDiv.innerText = document.querySelector('.main-title').innerText;
+	titleDiv.style.maxWidth = '120px;'
 	container.appendChild(titleDiv);
 
 	document.body.appendChild(container);
