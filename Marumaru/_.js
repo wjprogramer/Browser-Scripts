@@ -86,7 +86,7 @@ const createButtons = () => {
   copyHeaderButton.innerText = '複製標題與連結';
 	copyHeaderButton.addEventListener('click', () => {
 		const headerMetaText = document.querySelector('.main-title').innerText
-		copyText(`## [${headerMetaText}](${location.href})`);
+		copyText(`## <span class="j-sound"></span> [${headerMetaText}](${location.href})\n\n- Score: `);
   });
 	container.appendChild(copyHeaderButton);
 
